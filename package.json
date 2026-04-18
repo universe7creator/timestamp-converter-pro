@@ -1,0 +1,14 @@
+{
+  "name": "timestamp-converter-pro",
+  "version": "1.0.0",
+  "description": "Convert between Unix timestamps, ISO dates, and human-readable formats instantly. Essential for developers debugging logs and APIs.",
+  "main": "api/process.js",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "vercel-build": "echo 'Build complete'"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
