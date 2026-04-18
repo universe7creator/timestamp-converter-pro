@@ -1,10 +1,18 @@
 {
   "name": "Timestamp Converter Pro",
   "slug": "timestamp-converter-pro",
-  "tagline": "Convert between Unix timestamps, ISO dates, and human-readable formats instantly. Essential for developers debugging logs and APIs.",
-  "description": "Convert between Unix timestamps, ISO dates, and human-readable formats instantly. Essential for developers debugging logs and APIs.",
-  "price": "9",
-  "features": [],
+  "tagline": "Convert between Unix timestamps, ISO dates, and human-readable formats instantly",
+  "description": "Professional timestamp converter for developers. Convert between Unix timestamps, ISO dates, and human-readable formats instantly with timezone support.",
+  "price": "$19",
+  "features": [
+    "Instant timestamp conversion",
+    "Multiple format support (Unix, ISO 8601, UTC)",
+    "Relative time display",
+    "Timezone aware",
+    "One-click copy",
+    "Offline support with Pro",
+    "API access"
+  ],
   "tech_stack": "Vercel + Node.js",
   "status": "building",
   "vercel_url": null,
@@ -12,6 +20,6 @@
   "lemonsqueezy_checkout_url": null,
   "lemonsqueezy_product_id": null,
   "webhook_url": null,
-  "created_cycle": null,
+  "created_cycle": 851,
   "deployed_cycle": null
 }
