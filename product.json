@@ -15,11 +15,12 @@
   ],
   "tech_stack": "Vercel + Node.js",
   "status": "building",
-  "vercel_url": null,
+  "vercel_url": "https://timestamp-converter-pro.vercel.app",
   "github_url": null,
-  "lemonsqueezy_checkout_url": null,
+  "lemonsqueezy_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/placeholder-timestamp",
   "lemonsqueezy_product_id": null,
   "webhook_url": null,
   "created_cycle": 851,
-  "deployed_cycle": null
+  "deployed_cycle": null,
+  "checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/placeholder-timestamp"
 }
