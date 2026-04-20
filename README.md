@@ -38,4 +38,6 @@ Convert between Unix timestamps, ISO dates, and readable formats instantly witho
 
 ## Pricing
 
+**Checkout Status:** Checkout link isn't live yet. The public demo works now; LemonSqueezy activation is still pending.
+
 $19 planned one-time purchase. The public demo is already live for evaluation.
