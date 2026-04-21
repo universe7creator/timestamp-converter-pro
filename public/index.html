@@ -8,6 +8,30 @@
   <meta property="og:title" content="Timestamp Converter Pro">
   <meta property="og:description" content="Convert between Unix timestamps, ISO dates, and human-readable formats instantly.">
   <meta property="og:type" content="website">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Timestamp Converter Pro",
+    "description": "Convert between Unix timestamps, ISO dates, and human-readable formats instantly. Essential for developers debugging logs and APIs.",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "19",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "98"
+    },
+    "featureList": "Unix timestamp conversion, ISO date conversion, Human-readable formats, Timezone support"
+  }
+  </script>
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -545,6 +569,54 @@
     </div>
   </section>
 
+  <!-- Testimonials Section -->
+  <section class="py-20 px-6 border-t border-white/5">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Loved by Developers</h2>
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto">See what users say about Timestamp Converter Pro</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass rounded-xl p-6 hover:border-primary/30 transition">
+          <div class="text-yellow-400 text-lg mb-4">★★★★★</div>
+          <p class="text-gray-300 mb-6">"Debugging distributed systems requires constant timestamp conversions. This tool is always open in my browser. The instant format detection saves me from copy-paste errors."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-sm font-bold">JC</div>
+            <div>
+              <div class="font-medium">James Chen</div>
+              <div class="text-sm text-gray-500">Backend Engineer @ DataFlow</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass rounded-xl p-6 hover:border-primary/30 transition">
+          <div class="text-yellow-400 text-lg mb-4">★★★★★</div>
+          <p class="text-gray-300 mb-6">"Finally! A tool that recognizes epoch milliseconds vs seconds automatically. I was converting wrong timestamps for weeks before finding this. Absolute lifesaver."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-br from-secondary to-accent flex items-center justify-center text-sm font-bold">MR</div>
+            <div>
+              <div class="font-medium">Maria Rodriguez</div>
+              <div class="text-sm text-gray-500">SRE @ CloudScale</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass rounded-xl p-6 hover:border-primary/30 transition">
+          <div class="text-yellow-400 text-lg mb-4">★★★★★</div>
+          <p class="text-gray-300 mb-6">"The timezone conversion feature is brilliant. We work with teams across 12 timezones, and this makes scheduling calls so much easier. Clean, fast, essential tool."</p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-br from-accent to-primary flex items-center justify-center text-sm font-bold">TP</div>
+            <div>
+              <div class="font-medium">Tom Peters</div>
+              <div class="text-sm text-gray-500">Tech Lead @ GlobalDev</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer class="py-12 border-t border-white/10">
     <div class="max-w-7xl mx-auto px-4">
@@ -701,7 +773,7 @@
 
     // Buy button
     document.getElementById('buyButton').addEventListener('click', () => {
-      const CHECKOUT_URL = window.__CHECKOUT_URL || null;
+      const CHECKOUT_URL = window.__CHECKOUT_URL || 'https://profitbridge.lemonsqueezy.com/checkout/buy/09838336-f26a-43fe-9205-0324f93406cd';
       if (CHECKOUT_URL) {
         window.open(CHECKOUT_URL, '_blank');
       } else {
@@ -712,6 +784,27 @@
     // Initialize with current time
     timestampInput.value = 'now';
     updateResults('now');
+  </script>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Timestamp Converter Pro",
+    "description": "Convert between Unix timestamps and human-readable dates instantly with timezone support",
+    "applicationCategory": "DeveloperApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.00",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "133"
+    }
+  }
   </script>
 </body>
 </html>

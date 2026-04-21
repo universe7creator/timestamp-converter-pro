@@ -14,13 +14,14 @@
     "API access"
   ],
   "tech_stack": "Vercel + Node.js",
-  "status": "building",
+  "status": "live",
   "vercel_url": "https://timestamp-converter-pro.vercel.app",
   "github_url": null,
-  "lemonsqueezy_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/placeholder-timestamp",
+  "lemonsqueezy_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/09838336-f26a-43fe-9205-0324f93406cd",
   "lemonsqueezy_product_id": null,
   "webhook_url": null,
   "created_cycle": 851,
   "deployed_cycle": null,
-  "checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/placeholder-timestamp"
+  "checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/09838336-f26a-43fe-9205-0324f93406cd",
+  "lemon_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/09838336-f26a-43fe-9205-0324f93406cd"
 }

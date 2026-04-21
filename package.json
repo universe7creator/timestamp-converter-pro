@@ -5,7 +5,8 @@
   "main": "api/process.js",
   "scripts": {
     "dev": "node dev-server.js",
-    "vercel-build": "echo 'Build complete'"
+    "vercel-build": "echo 'Build complete'",
+    "test": "node --test"
   },
   "dependencies": {},
   "engines": {
