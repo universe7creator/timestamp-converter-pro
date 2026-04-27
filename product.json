@@ -17,11 +17,20 @@
   "status": "live",
   "vercel_url": "https://timestamp-converter-pro.vercel.app",
   "github_url": null,
-  "lemonsqueezy_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/09838336-f26a-43fe-9205-0324f93406cd",
   "lemonsqueezy_product_id": null,
   "webhook_url": null,
   "created_cycle": 851,
-  "deployed_cycle": null,
-  "checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/09838336-f26a-43fe-9205-0324f93406cd",
-  "lemon_checkout_url": "https://profitbridge.lemonsqueezy.com/checkout/buy/09838336-f26a-43fe-9205-0324f93406cd"
+  "deployed_cycle": 1108,
+  "checkout_url": "https://buy.polar.sh/polar_cl_hrJJX8663cpPwRLA3EYi8a3bjbl6Y0dr1hs97448JWw",
+  "seo_optimized": true,
+  "seo_optimized_at": "2026-04-21T17:45:00Z",
+  "payment_provider": "polar",
+  "spec_version": "1.0",
+  "polar_product_id": "b933c595-0038-4559-8a50-6073f447e7d5",
+  "polar_product_price_id": "cc25c0f5-40aa-414b-9fe7-64c083c88d65",
+  "polar_checkout_link_id": "2439dc05-41ec-4136-956a-001a558db0eb",
+  "category": "developer-tools",
+  "tags": [
+    "converter"
+  ]
 }
